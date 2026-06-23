@@ -1,15 +1,4 @@
-# QuarkPan-Tree-Exporter
-一个基于 quarkpan / quark_client 的夸克网盘目录树导出工具。支持读取夸克分享链接或个人网盘目录 ID，递归获取文件夹结构，并将结果输出到终端，同时自动保存为 download/tree.txt。
-
-**标题**
-
-QuarkPan Tree Exporter
-
-**介绍**
-
-一个基于 `quarkpan` / `quark_client` 的夸克网盘目录树导出工具。支持读取夸克分享链接或个人网盘目录 ID，递归获取文件夹结构，并将结果输出到终端，同时自动保存为 `download/tree.txt`。
-
-**简短说明**
+## 说明
 
 ```markdown
 # QuarkPan Tree Exporter
