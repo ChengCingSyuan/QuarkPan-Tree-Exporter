@@ -2,7 +2,7 @@
 
 基于 `quarkpan` / `quark_client` 的夸克网盘目录树导出工具。
 
-它可以读取夸克分享链接或个人网盘目录，递归获取文件夹与文件结构，并将结果打印到终端，同时默认保存到 `download/tree.txt`。
+它可以读取夸克分享链接或个人网盘目录，递归获取文件夹与文件结构，并将结果打印到终端，同时保存到 `tree.txt`。
 
 `quark_client` 来自 `quarkpan` 包内部，因此只需要安装 `quarkpan`。
 
@@ -38,7 +38,7 @@ python get_tree.py "https://pan.quark.cn/s/xxxx"
 运行后会在终端输出目录树，并默认保存到：
 
 ```text
-download/tree.txt
+tree.txt
 ```
 
 ## 使用示例
@@ -145,7 +145,7 @@ options:
   --max-depth MAX_DEPTH
                         Limit recursion depth. Root children are depth 1. Default: unlimited.
   --json                Output JSON instead of a text tree.
-  --output OUTPUT       Save output to this file. Default: download\tree.txt.
+  --output OUTPUT       Save output to this file. Default: tree.txt.
 ```
 
 ## 常用参数
