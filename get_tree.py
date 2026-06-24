@@ -10,7 +10,7 @@ from quark_client.config import Config
 
 
 TreeNode = Dict[str, Any]
-DEFAULT_OUTPUT_FILE = os.path.join("download", "tree.txt")
+DEFAULT_OUTPUT_FILE = "tree.txt"
 
 
 def parse_args() -> argparse.Namespace:
