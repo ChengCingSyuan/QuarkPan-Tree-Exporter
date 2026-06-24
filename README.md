@@ -160,7 +160,7 @@ options:
 | `--page-size` | 每页请求数量                         | `100`               |
 | `--max-depth` | 最大递归深度                         | 不限制                 |
 | `--json`      | 输出 JSON 格式                     | 关闭                  |
-| `--output`    | 保存文件路径                         | `download/tree.txt` |
+| `--output`    | 保存文件路径                         | `tree.txt` |
 
 ## 输出示例
 
